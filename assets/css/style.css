@@ -1859,7 +1859,32 @@ section {
   #footer .credits {
     padding-top: 4px;
   }
+
+  .normal_sponsors {
+    flex-direction: column;
+  }
+  .normal_sponsors img {
+    width: 50%;
+    margin: 1rem 25%;
+  }
+
+  .title_sponsors {
+    flex-direction: column;
+  }
+  .title_sponsors img {
+    width: 70%;
+    margin: 1.5rem 15%;
+  }
 }
+
+.normal_sponsors img {
+  padding: 10%;
+}
+
+.title_sponsors img {
+  padding: 10%;
+}
+
 #timer {
   font-size: 3em;
   font-weight: 100;
