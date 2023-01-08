@@ -91,7 +91,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #062965;
+  background: #063d9c;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -395,7 +395,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
+  height: 130vh;
   /* background: #37517e; */
   background: #062965;
 }
@@ -730,7 +730,7 @@ section {
 }
 
 .why-us .accordion-list span {
-  color: #47b2e4;
+  color: #062b69;
   font-weight: 600;
   font-size: 18px;
   padding-right: 10px;
@@ -757,7 +757,7 @@ section {
 }
 
 .why-us .accordion-list a.collapsed:hover {
-  color: #47b2e4;
+  color: #062b69;
 }
 
 .why-us .accordion-list a.collapsed .icon-show {
@@ -939,8 +939,8 @@ section {
 }
 
 .cta .cta-btn:hover {
-  background: #47b2e4;
-  border: 2px solid #47b2e4;
+  background: #062b69;
+  border: 2px solid #062b69;
 }
 
 @media (max-width: 1024px) {
@@ -1035,7 +1035,7 @@ section {
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover,
 .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #47b2e4;
+  color: #062b69;
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
@@ -1296,31 +1296,31 @@ section {
   display: inline-block;
   padding: 12px 35px;
   border-radius: 50px;
-  color: #47b2e4;
+  color: #062b69;
   transition: none;
   font-size: 16px;
   font-weight: 500;
   font-family: "Jost", sans-serif;
   transition: 0.3s;
-  border: 1px solid #47b2e4;
+  border: 1px solid #062b69;
 }
 
 .pricing .buy-btn:hover {
-  background: #47b2e4;
+  background: #062b69;
   color: #fff;
 }
 
 .pricing .featured {
-  border-top-color: #47b2e4;
+  border-top-color: #062b69;
 }
 
 .pricing .featured .buy-btn {
-  background: #47b2e4;
+  background: #062b69;
   color: #fff;
 }
 
 .pricing .featured .buy-btn:hover {
-  background: #23a3df;
+  background: #062b69;
 }
 
 @media (max-width: 992px) {
@@ -1384,7 +1384,7 @@ section {
   position: absolute;
   right: 0;
   left: 20px;
-  color: #47b2e4;
+  color: #062b69;
 }
 
 .faq .faq-list .icon-show,
@@ -1410,7 +1410,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #47b2e4;
+  color: #062b69;
 }
 
 .faq .faq-list a.collapsed .icon-show {
