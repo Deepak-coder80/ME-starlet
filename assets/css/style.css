@@ -1902,3 +1902,7 @@ section {
   font-size: 0.35em;
   font-weight: 400;
 }
+
+.spacer{
+  height: 50px;
+}
