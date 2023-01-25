@@ -88,8 +88,7 @@
           </h2>
 
           <center>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSftZjgpCKsT3HkNM8WzNnKDpHcS32kOdMLrPxTZeDmU6ZCk3Q/viewform?usp=sf_link"
-              class="regbtn">Register Now</a>
+            <button id="regBtn" class="regbtn">Register Now</button>
           </center>
 
           <br>
@@ -280,8 +279,7 @@
               </ul>
             </div>
             <center>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSftZjgpCKsT3HkNM8WzNnKDpHcS32kOdMLrPxTZeDmU6ZCk3Q/viewform?usp=sf_link"
-                class="regbtn2">Register Now</a>
+              <button id="regBtn2"  class="regbtn2">Register Now</button>
             </center>
           </div>
           <!-- 
@@ -759,8 +757,16 @@
       popup.classList.remove("open-popup");
     }
 
+    function goToForm(){
+      window.location("https://forms.gle/MvzKya8DUyNM66tf6");
+    }
+
     document.getElementById("regBtn").onclick = function () {
-      location.href = "https://www.google.com"
+      location.href = "https://forms.gle/MvzKya8DUyNM66tf6"
+    }
+
+    document.getElementById("regBtn2").onclick = function () {
+      location.href = "https://forms.gle/MvzKya8DUyNM66tf6"
     }
   </script>
 </body>
