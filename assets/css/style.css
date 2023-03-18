@@ -396,7 +396,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 120vh;
+  height: 80vh;
   /* background: #37517e; */
   background: #062965;
 }
@@ -475,7 +475,7 @@ h6 {
 
 @media (max-width: 991px) {
   #hero {
-    height: 100vh;
+    height: 80vh;
     text-align: center;
   }
 
@@ -2071,4 +2071,59 @@ section {
 .queriesbtn:hover{
   background-color: #062b69;
   color: #FFF;
+}
+.card {
+  background-color: #f7f6f6;
+  height: 450px;
+  font-size: 1em;
+  overflow: hidden;
+  padding: 0;
+  border: none;
+  border-radius: .28571429rem;
+  box-shadow: 0 1px 3px 0 #6d6d79, 0 0 0 1px #61616e;
+}
+
+.card-block {
+  font-size: 1em;
+  position: relative;
+  margin: 0;
+  padding: 1em;
+  border: none;
+  border-top: 1px solid rgba(34, 36, 38, .1);
+  box-shadow: none;
+}
+
+.card-img-top {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.card-title {
+  font-size: 24px;
+  color: #062b69;
+  font-weight: 700;
+  line-height: 1.2857em;
+}
+
+.card-text {
+  clear: both;
+  margin-top: .5em;
+  color: rgba(0, 0, 0, .68);
+}
+
+.card-footer {
+  font-size: 1em;
+  position: static;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  padding: .75em 1em;
+  color: rgba(0, 0, 0, .4);
+  border-top: 1px solid rgba(0, 0, 0, .05) !important;
+  background: #282424;
+}
+
+.card-inverse .btn {
+  border: 1px solid rgba(0, 0, 0, .05);
 }
